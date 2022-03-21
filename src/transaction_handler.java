@@ -1,6 +1,10 @@
 /**
  * 
  */
+import java.io.BufferedReader;
+import java.io.File;
+
+
 
 /**
  * @author caimenjackson
@@ -11,9 +15,13 @@ public class transaction_handler {
 	/**
 	 * @param args
 	 */
+	
+	public static String masterfile = "bankdeatils.txt";
+	
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
 	
 	public int customer_balance_checker(int CustomerNo) {
